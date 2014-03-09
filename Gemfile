@@ -43,3 +43,9 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+group :development, :test do
+  # Rspec
+  gem 'rspec-rails'
+  gem 'rake_shared_context'
+end
