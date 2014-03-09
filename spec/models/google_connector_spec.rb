@@ -8,7 +8,7 @@ describe GoogleConnector do
 
     context "normal case" do
       it "initialize_client" do
-        @connector.instance_variable_get(:@client).class.should Google::APIClient
+        @connector.instance_variable_get(:@client).class.should == Google::APIClient
       end
     end
   end
